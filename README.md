@@ -1,5 +1,5 @@
 # cs204
-Cs204 Lab
+CS204 Lab
 
 Name: Abhay Patap Gangwar
 

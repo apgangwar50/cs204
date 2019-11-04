@@ -7,7 +7,7 @@ typedef long double ld;
 ll v, e;
 const ll MAX = 1e4+5;
 ll id[MAX], nodes, edges;
-pair<ld, pair<ll, ll> > points[MAX];
+pair<ll, pair<ll, ll> > points[MAX];
 
 ll root(ll x)
 {
@@ -26,7 +26,7 @@ void uni(ll x, ll y)
     id[p] = id[q];
 }
 
-ll mst(pair<ld, pair<ll, ll> >  p[])
+ll mst(pair<ll, pair<ll, ll> >  p[])
 {
     ll x, y;
     ll cost, maxcost = 1;
